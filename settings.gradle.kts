@@ -20,4 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "KMP Sample"
-include(":app")
+include(":KmpLibrary")
+include("SampleJavaProject")
+include(":SampleAndroidApplication")
