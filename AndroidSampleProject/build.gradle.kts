@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-
+    implementation(project(":KmpLibrary"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
